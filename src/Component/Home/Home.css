@@ -1,0 +1,100 @@
+.her {
+    position: relative;
+}
+
+.her h3 {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.her h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.her h1 span {
+    color: #ff014f;
+}.her h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:#ff014f;
+}
+
+.her h2 span {
+    color:black;
+}
+
+.her p {
+    color:#878e99;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.her_btn {
+    margin-top: 20%
+}
+
+.her_btn h4 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #43474b;
+    font-size: 15px;
+    margin: 30px 0 30px 0;
+}
+
+.her_btn button {
+    margin-right: 30px;
+}
+
+.her_btn i{
+    font-size: 20px;
+}
+
+.her_btn button img{
+    width: 20px;
+    height: 20px;
+}
+
+.her, .left {
+    margin-right: 10%;
+}
+
+.her .right {
+    width: 20%;
+    position: relative;
+}
+
+/* .her .right_img {
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px #ffffff;
+    border-radius: 10px;
+    height: 580px;
+    width: 510px;
+    margin-top: 20%;
+} */
+
+.her .right_img img {
+    position: relative;
+    top: 10;
+    /* right: 10%; */
+    width: 300px;
+} 
+
+@media (max-width: 768px) {
+    .hero .right,
+    .hero .left {
+      width: 100%;
+      margin-left: 20px;
+    }
+  
+    .hero .f_flex {
+      flex-direction: column;
+      flex-direction: column-reverse;
+    }
+    .hero .right_img {
+      width: 95%;
+      height: 54vh;
+    }
+  }
+
