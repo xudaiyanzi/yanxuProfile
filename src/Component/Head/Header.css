@@ -1,10 +1,10 @@
 header {
-    height: 10vh;
+    height: 5vh;
     line-height: 10vh;
 }
 
 header .container {
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .logoImage {
@@ -25,7 +25,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #ff014f;
+    color: var(--color-primary-variant);
 }
 
 .home-btn {

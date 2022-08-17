@@ -2,10 +2,7 @@ import './Home.css';
 import React from 'react';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import herPic from '../pic/her.jpg';
-import skill1 from '../pic/skill1.png';
-import skill2 from '../pic/skill2.png';
-import skill3 from '../pic/skill3.png';
+import herPic from '../pic/her.png';
 
 const Home = () => {
     const words = ["Software developer.", "Research Scientist.", "Foodie."];
