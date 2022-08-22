@@ -21,6 +21,7 @@ const Home = () => {
                 <div className='text_div'>
                     <h4>
                         {'Hi, my name is Yan.'}
+                        {'test'}
                     </h4>
                     <h2>
                         {'I am a '}
