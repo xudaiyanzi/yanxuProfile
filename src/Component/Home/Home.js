@@ -1,11 +1,12 @@
 import './Home.css';
 import React from 'react';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-
 import herPic from '../pic/her.png';
+import logo from '../pic/logo.png'
+import Card from './Card';
 
 const Home = () => {
-    const words = ["Software developer.", "Research Scientist.", "Foodie."];
+    const words = [" software developer.", " research scientist.", " foodie :)"];
     const { text } = useTypewriter({
         words,
         loop: 0, 
@@ -13,39 +14,26 @@ const Home = () => {
     return (
       <>
         <section className='her' id='home'>
-            <div className='container f_flex top'>
-                <div className='left top'>
-                    <h3>WELCOME TO MY PAGE</h3>
-                    <h1>
-                        Hi, I am <span>Yan Xu</span>
-                    </h1>
+            <div>
+                <img className='logoImage' src={logo} alt='' />           
+            </div>
+            <div className='container her_container'>
+                <div className='text_div'>
+                    <h4>
+                        {'Hi, my name is Yan.'}
+                    </h4>
                     <h2>
-                        a {' '}
-                        <span>
+                        {'I am a '}
+                        <span class='her_role'>
                             {text}
                             <Cursor />
                         </span>
                     </h2>
-                    <p>I like to learn new thing and enjoy solving problems using both theoretical and empirical method.</p>
-                    <div className='her_btn d_flex'>
-                        <div className='col_1'>
-                            <h4>FIND WITH ME</h4>
-                            <div className='button'>
-                                <button className='btn_shadow'>
-                                    <i className='fab fa-linkedin'></i>
-                                </button>
-                                <button className='btn_shadow'>
-                                    <i className='fab fa-github'></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div className='right top'>
-                    <div className='right_img'>
-                        <img src={herPic} alt='' />
-                    </div>
+                <div>
+                    <img src={herPic} alt='' className='her_pic  pic_div' />
                 </div>
+                <Card />
             </div>
         </section>
     </>

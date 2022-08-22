@@ -1,0 +1,22 @@
+Particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/*----------Footer for iPad---------*/
+@media (max-width: 1024px) {
+    Particles {
+        display: none;
+    }
+}
+
+/*----------Footer for iPhone---------*/
+@media (max-width: 600px) {
+    Particles {
+        display: none;
+    }
+}

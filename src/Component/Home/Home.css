@@ -1,100 +1,140 @@
 .her {
+    height: 100vh;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.her_container {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.logoImage {
+    width: 130px;
+    height: 50px;
+    margin-top: 1px;
+    margin-left: 5%;
     position: relative;
 }
-
-.her h3 {
-    font-weight: 100;
-    letter-spacing: 2px;
+/*-----------social media icons----------------*/
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    top: 12rem;
 }
 
-.her h1 {
-    font-size: 30px;
-    font-weight: bold;
+.socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color:var(--color-primary);
+    
 }
 
-.her h1 span {
-    color: #ff014f;
-}.her h2{
-    font-size: 30px;
-    font-weight: bold;
-    color:#ff014f;
-}
 
-.her h2 span {
-    color:black;
-}
-
-.her p {
-    color:#878e99;
-    font-size: 15px;
-    line-height: 30px;
-    margin-top: 30px;
-}
-
-.her_btn {
-    margin-top: 20%
-}
-
-.her_btn h4 {
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #43474b;
-    font-size: 15px;
-    margin: 30px 0 30px 0;
-}
-
-.her_btn button {
-    margin-right: 30px;
-}
-
-.her_btn i{
-    font-size: 20px;
-}
-
-.her_btn button img{
-    width: 20px;
-    height: 20px;
-}
-
-.her, .left {
-    margin-right: 10%;
-}
-
-.her .right {
-    width: 20%;
+/*-----------my pic----------------*/
+.her_pic {
+    display: flex;
+    background-color: linear-gradientvar((--color-bg), transparent);
+    /* width: 300px; */
+    width: 50%;
+    /* height: 500px; */
     position: relative;
-}
-
-/* .her .right_img {
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px #ffffff;
-    border-radius: 10px;
-    height: 580px;
-    width: 510px;
+    left: calc(60% - 150px);
     margin-top: 20%;
-} */
+    overflow: hidden;
+    opacity: 70%;
+    object-fit: contain;
+    border-radius: 20px;
+}
 
-.her .right_img img {
+/*-----------my name----------------*/
+h4 {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-left: 20%;
+    top: 20%;
+    display:-webkit-box;
+}
+
+h2 {
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-left: 20%;
+    display:-webkit-box;
+}
+
+.her_role {
+    color: var(--color-primary-variant);
+}
+
+.text_div {
+    height:500px;
+    width:600px;
+    margin-top: 200px;
+    float:left;
+}
+
+.home_hovertext {
     position: relative;
-    top: 10;
-    /* right: 10%; */
-    width: 300px;
-} 
-
-@media (max-width: 768px) {
-    .hero .right,
-    .hero .left {
-      width: 100%;
-      margin-left: 20px;
-    }
+  }
   
-    .hero .f_flex {
-      flex-direction: column;
-      flex-direction: column-reverse;
-    }
-    .hero .right_img {
-      width: 95%;
-      height: 54vh;
-    }
+.home_hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    color: var(--color-primary-variant);
+    text-align: right;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    top: -1%;
+    font-size: 12px;
+  }
+  
+.home_hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
   }
 
+
+/*----------for iPad---------*/
+@media (max-width: 1024px) {
+    .her_container {
+        flex-direction: column;
+    }
+
+    h2 {
+        flex-direction: column;
+    }
+}
+
+
+/*----------for phone---------*/
+@media (max-width: 600px) {
+    .her_container {
+        flex-direction: column;
+    }
+
+    h2 {
+        flex-direction: column;
+    }
+
+    .socials {
+        display: none;
+    }
+}
