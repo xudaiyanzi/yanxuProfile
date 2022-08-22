@@ -42,8 +42,8 @@ const ParticleBg = () => {
                                 quantity: 3,
                             },
                             repulse: {
-                                distance: 100,
-                                duration: 0.5,
+                                distance: 150,
+                                duration: 0.3,
                             },
                         },
                     },
@@ -78,7 +78,7 @@ const ParticleBg = () => {
                             type: "circle",
                         },
                         size: {
-                            value: { min: 2, max: 4 },
+                            value: { min: 2, max: 5 },
                         },
                     },
                     detectRetina: true,

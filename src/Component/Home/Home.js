@@ -30,10 +30,8 @@ const Home = () => {
                         </span>
                     </h2>
                 </div>
-                <div>
-                    <img src={herPic} alt='' className='her_pic  pic_div' />
-                </div>
                 <Card />
+                <img className='her_pic' src={herPic} alt='' />
             </div>
         </section>
     </>
