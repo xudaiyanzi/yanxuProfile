@@ -14,13 +14,14 @@ import Nav from './Component/Nav/Nav'
 function App() {
   return (
     <>
-      <ParticleBg />
+      
       <Home />
       <Nav />
       <Features />
       <Portfolio />
       <Blog />
       <Contact />
+      <ParticleBg />
     </>
   )
 }

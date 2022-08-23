@@ -18,6 +18,7 @@ const Home = () => {
                 <img className='logoImage' src={logo} alt='' />           
             </div>
             <div className='container her_container'>
+                <Card />
                 <div className='text_div'>
                     <h4>
                         {'Hi, my name is Yan.'}
@@ -31,7 +32,6 @@ const Home = () => {
                         </span>
                     </h2>
                 </div>
-                <Card />
                 <img className='her_pic' src={herPic} alt='' />
             </div>
         </section>
