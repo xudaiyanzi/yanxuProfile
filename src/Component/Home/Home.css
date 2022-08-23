@@ -107,7 +107,7 @@ h2 {
     left: 63%;
     opacity: 90%;
     border-radius: 50px;
-    background: linear-gradient(200deg, var(--color-bg), var(--color-bg-variant));
+    /* background: linear-gradient(200deg, var(--color-bg), var(--color-bg-variant)); */
 }
 
 
