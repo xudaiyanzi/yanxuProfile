@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMeData from './AboutMeData'
+import {FaUserGraduate} from 'react-icons/fa'
 
 const Card = (props) => {
   return (
