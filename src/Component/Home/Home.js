@@ -1,7 +1,7 @@
 import './Home.css';
 import React from 'react';
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import herPic from '../pic/her.png';
+import herPic from '../pic/her.jpg';
 import logo from '../pic/logo.png'
 import Card from './Card';
 
