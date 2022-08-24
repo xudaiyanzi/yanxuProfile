@@ -75,10 +75,10 @@ const ParticleBg = () => {
                             value: 0.5,
                         },
                         shape: {
-                            type: "circle",
+                            type: "star",
                         },
                         size: {
-                            value: { min: 2, max: 5 },
+                            value: { min: 2, max: 4 },
                         },
                     },
                     detectRetina: true,

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Component/Head/Header'
 import Home from './Component/Home/Home'
 import './App.css'
-import Features from './Component/Features/Features'
+import AboutMe from './Component/AboutMe/AboutMe'
 import Portfolio from './Component/Portfolio/Portfolio'
 import Blog from './Component/Blog/Blog'
 import Contact from './Component/Contact/Contact'
@@ -17,7 +17,7 @@ function App() {
       
       <Home />
       <Nav />
-      <Features />
+      <AboutMe />
       <Portfolio />
       <Blog />
       <Contact />

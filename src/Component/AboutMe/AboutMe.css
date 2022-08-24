@@ -1,0 +1,47 @@
+.AboutMe {
+    border: solid 3px red;
+}
+.ResumeBox {
+    border: solid 3px green;
+    padding: 10px;
+}
+
+.ResumeBoxDesc li{
+    color:purple;
+    font-size: 0.8rem;
+    list-style-type: circle;
+    margin-left: 2%;
+}
+.ResumeBox:hover {
+    transform: translate(3px, -3px);
+    border: solid 3px white;
+    color: var(--color-primary-variant);
+    transition: 0.3s ease-in-out;
+}
+
+
+/*
+.features .box h2 {
+    margin: 20px 0 20px 0;
+}
+
+.features .box p {
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+
+.features .box i {
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.features .box:hover p {
+    color: white;
+}
+
+.features .box:hover i {
+    color: white;
+    opacity: 1;
+} */
