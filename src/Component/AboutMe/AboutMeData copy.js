@@ -36,15 +36,15 @@ const AboutMeData = [
         desc: [
             {
                 id: 1,
-                desc: "Designed new algorithms for chemicals selection and improved oil production by 70%",
+                desc: "Designed new algorithms to select high-efficiency chemicals, which improved oil production by 70%",
             },
             {
                 id: 2,
-                desc: "Built an automated workflow for chemicals using the empirical datasets and modeling techniques",
+                desc: "Built an automated workflow to test the chemical features using the empirical datasets and modeling techniques",
             },
             {
                 id: 3,
-                desc: "Presented scientific findings to company managers, and published 3 research articles in top journals",
+                desc: "Presented scientific findings to CEO, CFO, CTO, and managers, and published 3 research articles in top journals",
             }
         ]
     },
@@ -57,7 +57,7 @@ const AboutMeData = [
         desc: [
             {
                 id: 1,
-                desc: "Implemented authentication and authorization to Pyth-flask APP in Azure DevOps",
+                desc: "Implemented identity management (authentication and authorization) to Pyth-flask APP in Azure DevOps",
             },
             {
                 id: 2,
@@ -65,7 +65,11 @@ const AboutMeData = [
             },
             {
                 id: 3,
-                desc: "Documented the Authentication and Azure pipeline deployment for fellow software engineers",
+                desc: "Documented the Authentication and Azure pipeline deployment for Python-flask application and provided a training session to fellow software engineers, pipeline engineers, and managers",
+            },
+            {
+                id: 4,
+                desc: "Design the full-stack demo for APP using .net, Angular, and SQL database in Azure, allowing pipeline engineers to upload JSON files in the front end and store the file automatically to the SQL database in Azure"
             }
         ]
     },

@@ -81,15 +81,10 @@
 }
 
 h4 {
-    font-size: 1.2rem;
-    font-weight: bold;
     color: var(--color-primary);
 }
 
 h2 {
-
-    font-size: 2rem;
-    font-weight: bold;
     color: var(--color-primary);
     display: flex-inline;
     flex-direction: column;
@@ -118,13 +113,13 @@ h2 {
     }
 
     .text_div {
-        margin-top: 50%;
+        margin-top: 40%;
         align-content: center;
     }
 
     .her_pic {
-        width: 40%;
-        left: 30%;
+        width: 30%;
+        left: 40%;
     }
 }
 

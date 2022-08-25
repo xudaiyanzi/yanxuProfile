@@ -13,11 +13,9 @@
 :root {
   /* --color-bg: #fdcbbf; */
   --color-bg: rgb(254, 244, 236);
-  /* --color-bg: #bfdef7; */
-  --color-bg-variant: #a4cff9;
+  --color-bg-variant: #f9eadc;
   --color-primary: #3c3e41;
-  /* --color-primary: rgb(251, 212, 188); */
-  --color-primary-variant: #5578c8;
+  --color-primary-variant: #fc9343;
   --color-white: #fff;
 
   --container-width-lg: 75%;
@@ -52,30 +50,44 @@ section {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
-h1 {
+h2 {
   font-size: 2rem;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-h5 li {
-  font-size: 0.8rem;
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.7rem;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.7;
+  font-size: 0.7rem;
 }
 
-
+li {
+  font-size: 0.7rem;
+  line-height: 1;
+  list-style: circle;
+  padding-top: 1rem;
+}
 
 a {
   transition: var(--transition);

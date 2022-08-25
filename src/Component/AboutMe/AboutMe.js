@@ -11,10 +11,7 @@ const AboutMe = () => {
                     <h2>About me</h2>
                     <p>I am passionate about solving real world problem using both empirical and theoretical ways.</p>
                 </div>
-
-                <div className='content grid'>
-                    <Card />
-                </div>
+                <Card />
             </div>
         </section>
     </>
