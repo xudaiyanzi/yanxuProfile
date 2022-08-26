@@ -10,7 +10,7 @@ const Nav = () => {
     <nav>
         <a href='#home' className='hovertext' data-hover='Home'><AiOutlineHome /></a>        
         <a href='#aboutMe' className='hovertext' data-hover='Me'><AiOutlineUser /></a>
-        <a href='#portfolio' className='hovertext' data-hover='Projects'><BiBook /></a>
+        <a href='#projects' className='hovertext' data-hover='Projects'><BiBook /></a>
         <a href='#blog' className='hovertext' data-hover='Blog'><FaBlog /></a>
         <a href='#contact' className='hovertext' data-hover='Contacts'><MdOutlineContactMail /></a>
     </nav>

@@ -18,7 +18,8 @@ const Card = (props) => {
                                     <div className='timeline_item_container' key={index}>
                                         <div className='timeline_item d_flex'>
                                             <h5 className='item_title'>{val.title}</h5>
-                                            <h6 className='item_school_year'>{val.school}, {val.year}</h6>
+                                            <h6 className='item_school_year'>{val.school}</h6>
+                                            <h6 className='item_school_year'>{val.year}</h6>
                                         </div>
                                     </div>
                                 )
@@ -39,7 +40,8 @@ const Card = (props) => {
                                         <div className='timeline_item_container' key={index}>
                                             <div className='timeline_item'>
                                                 <h5>{val.title}</h5>
-                                                <h6>{val.company}, {val.year}</h6>
+                                                <h6>{val.company}</h6>
+                                                <h6>{val.year}</h6>
                                                 <hr />
                                                 <div>
                                                     <ul>

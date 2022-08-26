@@ -94,8 +94,8 @@
     /* color: var(--color-white); */
     background-color: var(--color-primary-variant);
     transition: 0.3s ease-in-out;
+    /* transform: translate(0, -0.5rem); */
 }
-
 
 /* hr for desr*/
 hr {
@@ -104,10 +104,6 @@ hr {
     background-color: #c2c4c5;
   }
 
-/* .timeline_item::before:hover{
-    border: medium solid var(--color-primary-variant);
-    border-color: transparent var(--color-primary-variant) transparent transparent;
-} */
 
 /*----------Footer for iPad---------*/
 /* @media (max-width: 1024px) {

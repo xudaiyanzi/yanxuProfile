@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card'
 import './Blog.css'
 import BlogApi from './BlogApi'
-import '../Portfolio/Portfolio.css'
+import '../Projects/Projects.css'
 
 const Blog = () => {
   return (

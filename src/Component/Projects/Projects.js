@@ -1,20 +1,20 @@
 import React from 'react'
-import './Portfolio.css'
-import Portfolio_data from './Portfolio_data.js'
+import './Projects.css'
+import Projects_data from './Projects_data.js'
 import Card from './Card'
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <>
-        <section className='porfolio top' id='portfolio'>
+        <section className='porfolio top' id='projects'>
             <div className='container'>
                 <div className='heading text-center'>
                     <h4> VISIT MY PORFORLIO AND LEAVE YOUR FEEDBACK</h4>
-                    <h1>My Portfolio</h1>
+                    <h1>My Projects</h1>
                 </div>
 
                 <div className='content grid'>
-                    {Portfolio_data.map((value, index) => {
+                    {Projects_data.map((value, index) => {
                         return (
                             <Card 
                             key={index}
@@ -32,4 +32,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Projects
