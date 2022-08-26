@@ -1,8 +1,8 @@
-.AboutMe {
+/* .AboutMe {
     margin-top: -2rem;
-    /* position: relative; */
-    /* border: solid 3px red; */
-}
+    position: relative;
+    border: solid 3px red;
+} */
 
 .aboutme_heading {
     text-align: center;
@@ -52,6 +52,7 @@
     padding: 0.5rem 1rem;
     position: relative;
     border-radius: 6px;
+    /* transform: translate(0, -0.5rem); */
     /* background-color: inherit; */
 }
 

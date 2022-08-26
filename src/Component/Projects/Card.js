@@ -15,7 +15,7 @@ const Card = (props) => {
                                     <img src={val.image} alt=''/>
                                 </div>
                                 <div>
-                                    <a href={val.image_site} className='pic_copyright'>Picture copyRight</a>
+                                    <a href={val.image_site} className='pic_copyright' target='_blank'>Picture copyRight</a>
                                 </div>
                                 <div className='projects_item_title'>
                                     <h5>{val.title}</h5>

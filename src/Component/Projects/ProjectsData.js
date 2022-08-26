@@ -1,7 +1,7 @@
 import OOP_Pacman from '../pic/pic_projects/OOP_Pacman.png'
 import CICD_AWS from '../pic/pic_projects/CICD_AWS.png'
 import recognize from '../pic/pic_projects/recognize.jpeg'
-import nba_injury from '../pic/pic_projects/nba_injury.jpeg'
+import nba_injury from '../pic/pic_projects/nba_injury.png'
 import full_stack_immigration from '../pic/pic_projects/full_stack_immigration.png'
 import backend_chat from '../pic/pic_projects/backend_chat.png'
 
@@ -49,7 +49,7 @@ const Portfolio_data = [
     {
         id: 6,
         category: 'Machine Learning',
-        title: 'NBA Player Salary and Injury Prediction',
+        title: 'NBA Players Prediction',
         image:nba_injury,
         url:'https://github.com/xudaiyanzi/NBA_players_salary/tree/master/injuries'
     },

@@ -19,7 +19,6 @@ function App() {
       <Nav />
       <AboutMe />
       <Projects />
-      <Blog />
       <Contact />
       <Footer />
       <ParticleBg />
