@@ -1,3 +1,6 @@
+.projects{
+    margin-top: 2rem;
+}
 .projects_heading {
     text-align: center;
     margin-top: 0rem;
@@ -26,6 +29,11 @@
     color: var(--color-white);
     transition:var(--transition);
     transform: translate(0rem, -0.5rem);
+}
+
+.projects_item_details {
+    justify-content: center;
+    align-items: center;
 }
 
 .projects_item_img {
