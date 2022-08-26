@@ -38,7 +38,7 @@ const Contact = () => {
             <section className='Contact' id='contact'>
                 <div className='container top'>
                     <div className='contact_heading'>
-                        <h2>Contact with me</h2>
+                        <h2>Contact me</h2>
                     </div>
 
                     <div className='content d_flex'>
