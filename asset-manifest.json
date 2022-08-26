@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a769fe93.css",
-    "main.js": "/static/js/main.87a48d53.js",
+    "main.css": "/static/css/main.a0de5756.css",
+    "main.js": "/static/js/main.172caba5.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/full_stack_immigration.png": "/static/media/full_stack_immigration.3245ef46dc794f237f13.png",
+    "static/media/OOP_Pacman.png": "/static/media/OOP_Pacman.0cbd651c4f6268b67517.png",
+    "static/media/backend_chat.png": "/static/media/backend_chat.ddcb7e9686a5586be60c.png",
     "static/media/her.jpg": "/static/media/her.5b69d8c5f25671d0d391.jpg",
+    "static/media/CICD_AWS.png": "/static/media/CICD_AWS.3989a5d364fc77bac0fa.png",
     "static/media/logo.png": "/static/media/logo.36f643e3a80c2d5ecb1b.png",
+    "static/media/recognize.jpeg": "/static/media/recognize.c911de7c70807b867263.jpeg",
+    "static/media/nba_injury.jpeg": "/static/media/nba_injury.56d018934910c378adc5.jpeg",
     "index.html": "/index.html",
-    "main.a769fe93.css.map": "/static/css/main.a769fe93.css.map",
-    "main.87a48d53.js.map": "/static/js/main.87a48d53.js.map",
+    "main.a0de5756.css.map": "/static/css/main.a0de5756.css.map",
+    "main.172caba5.js.map": "/static/js/main.172caba5.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a769fe93.css",
-    "static/js/main.87a48d53.js"
+    "static/css/main.a0de5756.css",
+    "static/js/main.172caba5.js"
   ]
 }
