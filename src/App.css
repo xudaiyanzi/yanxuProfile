@@ -43,7 +43,9 @@ body {
 
 .container {
   width: var(--container-width-sm);
+  /* margin-bottom: 2rem; */
   margin: 0 auto;
+  /* border: 1px solid red; */
 }
 
 h1 {
@@ -52,6 +54,7 @@ h1 {
 }
 
 h2 {
+  padding-top: 3rem;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -128,6 +131,10 @@ img {
   object-fit: cover;
 }
 
+.top {
+  position: relative;
+  top: -1rem;
+}
 
 /*----------Footer for iPad---------*/
 @media (max-width: 1024px) {

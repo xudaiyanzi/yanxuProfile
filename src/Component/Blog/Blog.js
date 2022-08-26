@@ -10,8 +10,7 @@ const Blog = () => {
         <section className='Portfolio blog' id='blog'>
             <div className='container top'>
                 <div className='heading text-center'>
-                    <h4>VISIT MY BLOG AND LEAVE YOUR FEEDBACK</h4>
-                    <h1>My Blog</h1>
+                    <h2>My Blog</h2>
                 </div>
 
                 <div className='content grid'>

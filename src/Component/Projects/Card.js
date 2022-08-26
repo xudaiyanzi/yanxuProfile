@@ -1,60 +1,50 @@
 import React,  {useState} from 'react'
+import ProjectsData from './ProjectsData.js'
 
 const Card = (props) => {
-    const [modal, setModal] = useState(false)
-    const toggleModal = () => {
-        setModal(!modal)
-    }
+
     return (
         <>
-            <div className='box btn_shadow'>
-                <div className='img'>
-                    <img src={props.image} alt='' onClick={toggleModal}/> 
-                </div>
-                <div className='category d_flex'>
-                    <span onClick={toggleModal}>{props.category}</span>
-                    <label>
-                        <i className='far fa-heart'></i>{props.totalLike}
-                    </label>
-                </div>
-                <div className='title'>
-                    <h2 onClick={toggleModal}>{props.title}</h2>
-                    <a href='#popup' className='arrow' onClick={toggleModal}>
-                        <i className='fas fa-arrow-right'></i>
-                    </a>
-                </div>
-            </div>
-            
-            {/* popup */}
-            {modal && (
-                <div className='modal'>
-                    <div onClick={toggleModal} className='overlay'>
-                        <div className='modal-content d_flex'>
-                            <div className='modal-img left'>
-                                <img src={props.img} alt='' />
-                            </div>
-
-                            <div className='modal-text right'>
-                                <span>Featured - Design</span>
-                                <h1>{props.title}</h1>
-                                <p>descrb1</p>
-                                <div className='button f_flex mtop'>
-                                    <button className='btn_shadow'>
-                                        Like THIS <i className='fas fa-thumbs-up'></i>
-                                    </button>
-                                    <button className='btn_shadow'>
-                                        VIEW PROJECT <i className='fas fa-chevron-right'></i>
-                                    </button>
+            {
+                ProjectsData.map((val, index) => {
+                    if (val.image_site) {
+                        return (
+                            <article className='projects_item' key={index}>
+                                <h6>{val.category}</h6>
+                                <div className='projects_item_img'>
+                                    <img src={val.image} alt=''/>
                                 </div>
-                                <button className='close-modal btn_shadow' onClick={toggleModal}>
-                                    <i className='fas fa-times'></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            )}
+                                <div>
+                                    <a href={val.image_site} className='pic_copyright'>Picture copyRight</a>
+                                </div>
+                                <div className='projects_item_title'>
+                                    <h5>{val.title}</h5>
+                                </div>
+                                <div className='projects_item_links'>
+                                    <a href={val.url} className='projects_btn' target='_blank'>Demo</a>
+                                </div>
+                            </article>
+                        )
+                    } else {
+                        return (
+                            <article className='projects_item' key={index}>
+                                <h6>{val.category}</h6>
+                                <div className='projects_item_img'>
+                                    <img src={val.image} alt=''/>
+                                </div>
+                                <div className='projects_item_title'>
+                                    <h5>{val.title}</h5>
+                                </div>
+                                <div className='projects_item_links'>
+                                    <a href={val.url} className='projects_btn' target='_blank'>Demo</a>
+                                </div>
+                            </article>
+                        )
+                    }
+                    
+                })
+            }
+            
         </>
     )
 }

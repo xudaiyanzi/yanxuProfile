@@ -1,10 +1,12 @@
 .AboutMe {
-    margin-top: 0rem;
+    margin-top: -2rem;
+    /* position: relative; */
     /* border: solid 3px red; */
 }
 
-.heading {
+.aboutme_heading {
     text-align: center;
+    top: -4rem;
 }
 
 /*--------------content----------------*/
@@ -12,12 +14,13 @@
     /* border: solid 3px red; */
     margin-top: 1rem;
     display:flex;
-    width: 90%;
+    width: 92%;
 }
 /*-----------left section------------*/
 .left {
     position: relative;
     margin-left: 2rem;
+    /* margin-right: 2rem; */
     width: 50%;
 }
 

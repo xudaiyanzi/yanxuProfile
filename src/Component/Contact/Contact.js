@@ -61,15 +61,15 @@ const Contact = () => {
                             <form ref={form} onSubmit={sendEmail} className='contact_form'>
                                 <div className='contact_item'>
                                     <label className='label_item'>Name:</label>
-                                    <input className='input_item' type="text" name="from_name" placeholder='Full Name'/>
+                                    <input className='input_item' type="text" name="from_name" placeholder='Full Name' required/>
                                 </div>
                                 <div className='contact_item'>
                                     <label className='label_item'>Email:</label>
-                                    <input className='input_item' type="email" name="from_email" placeholder='eg. xx@gmail.com'/>
+                                    <input className='input_item' type="email" name="from_email" placeholder='eg. xx@gmail.com' required/>
                                 </div>
                                 <div className='contact_item'>
                                     <label className='label_item'>Subject:</label>
-                                    <input className='input_item' type="text" name="from_subject" placeholder='eg. Interest in your project'/>
+                                    <input className='input_item' type="text" name="from_subject" placeholder='eg. Interest in your project' required/>
                                 </div>
                                 <div className='contact_item'>
                                     <label className='label_item'>Message</label>
