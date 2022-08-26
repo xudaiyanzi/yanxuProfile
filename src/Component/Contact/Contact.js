@@ -4,6 +4,10 @@ import logo from '../pic/logo.png'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {AiOutlineGithub} from 'react-icons/ai'
 import emailjs from '@emailjs/browser';
+import {
+    GoogleReCaptchaProvider,
+    GoogleReCaptcha
+  } from 'react-google-recaptcha-v3';
 
 
 const Contact = () => {
@@ -21,10 +25,13 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             console.log('message sent');
+            window.alert('message sent');
         }, (error) => {
             console.log(error.text);
         });
     };
+
+    
     
     return (
         <>
@@ -67,8 +74,6 @@ const Contact = () => {
                                 <div className='contact_item'>
                                     <label className='label_item'>Message</label>
                                     <textarea name="message" className='message_item'/>
-                                    <div src='https://www.google.com/recaptcha/api.js' className="g-recaptcha" data-sitekey={SITE_KEY}>
-                                    </div>
                                     <input type="submit" value="Send" className='send_btn'/>
                                 </div>
                             </form>
