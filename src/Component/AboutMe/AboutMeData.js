@@ -53,7 +53,7 @@ const AboutMeData = [
         category: "experience",
         company:"Chevron",
         year: "2022 - present",
-        title: "Software Engineer intern",
+        title: "Software Engineer",
         desc: [
             {
                 id: 1,
