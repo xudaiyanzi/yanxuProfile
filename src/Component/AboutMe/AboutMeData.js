@@ -52,7 +52,7 @@ const AboutMeData = [
         id: 6,
         category: "experience",
         company:"Chevron",
-        year: "May - Aug 2022",
+        year: "2022 - present",
         title: "Software Engineer intern",
         desc: [
             {
@@ -65,7 +65,7 @@ const AboutMeData = [
             },
             {
                 id: 3,
-                desc: "Documented the Authentication and Azure pipeline deployment for fellow software engineers",
+                desc: "Utilized Artificial Intelligence techniques to promote data-driven decision-making, and optimized the workflow",
             }
         ]
     },
